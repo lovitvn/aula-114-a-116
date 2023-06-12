@@ -1,0 +1,24 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border:2px dashed black;
+    animation-name:nome;
+    animation-duration:1ms;
+    animation-iteration-count: infinite;
+  }
+@keyframes nome{
+  from{
+    box-shadow:-1px -1px 150px burlywood; 
+  }
+  to{
+    box-shadow:-1px -1px 150px rgb(0, 115, 61)
+  }
+  from{
+    box-shadow:-1px -1px 150px rgb(0, 115, 61); 
+  }
+  to{
+    box-shadow:-1px -1px 150px burlywood; 
+  }
+}
